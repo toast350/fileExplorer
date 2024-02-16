@@ -1,0 +1,3 @@
+This is a simple file explorer for the terminal.
+
+Only supports different colors for directories on file systems that support getting the type from readdir, this might change in the future
