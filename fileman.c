@@ -74,6 +74,7 @@ struct fileInfo *getCurDirArr(int *arrLen)
 
         i++;
     }
+    closedir(dir);
 
     qsort((void *) fileInfoArr, numEntries, sizeof(struct fileInfo), fileInfoCmp);
 
