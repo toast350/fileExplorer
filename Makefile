@@ -1,6 +1,6 @@
 args?='-O2'
 
-fileman: fileman.c
+filexplr: filexplr.c
 	gcc -Wall -Wextra -pedantic $(args) -o fileman fileman.c
 
 clean:
