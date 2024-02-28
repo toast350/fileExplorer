@@ -1,7 +1,7 @@
 args?='-O2'
 
 filexplr: filexplr.c
-	gcc -Wall -Wextra -pedantic $(args) -o fileman fileman.c
+	gcc -Wall -Wextra -pedantic $(args) -o filexplr filexplr.c
 
 clean:
-	if [ -f fileman ]; then rm fileman; fi
+	if [ -f filexplr ]; then rm filexplr; fi
